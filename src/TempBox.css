@@ -1,0 +1,54 @@
+.box{
+    background-image: linear-gradient(rgb(207, 155, 255),rgb(170, 89, 247));
+    min-height: 500px;
+    max-width: 500px;
+    margin: 8% auto;
+    border-radius: 5%;
+    box-shadow: 8px 5px 5px 0px rgba(0,0,0,0.75);
+}
+.search{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 0px 14%;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.search_inp{
+    width: 70%;
+    height: 90%;
+    border: 3px solid plum;
+    border-radius: 20px;
+    margin-left: 15%;
+    align-items: center;
+    margin: 10px auto;
+    text-align: center;
+    font-size: large;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+}
+.cloud{
+    font-size: xx-large;
+}
+.Err{
+    text-align: center;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 150px;
+}
+.city{
+    text-align: center;
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(29, 28, 27);
+    padding: 100px;
+}
+
